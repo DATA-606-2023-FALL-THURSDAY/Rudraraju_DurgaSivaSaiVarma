@@ -1,5 +1,5 @@
 # Durga Siva Sai Varma Rudraraju
-![Headshot](Photo.jpg)
+![Headshot](https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Photo.jpg)
 
 ## Professional Summary:
 - Test Planning and Strategy: Demonstrated ability to create comprehensive test plans, strategies, and test cases to ensure thorough testing coverage.
