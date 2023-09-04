@@ -25,21 +25,14 @@
 - Data Sources: The dataset is obtained from Kaggle and is related to the SMS Spam Collection Dataset Collection of SMS messages tagged as spam or legitimate.
 - Data Set Link: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download
 - Data Size: The dataset is relatively small, with a size of approximately 503 KB.
-- Data Shape: The dataset contains 5,572 rows and 5 columns.
-- Data Dictionary:
-  
-    1.	ID: ID number of customers (Integer).
-    2.	Warehouse_block: Warehouse block categorization (Categorical - A, B, C, D, E).
-    3.	Mode_of_Shipment: Mode of shipment (Categorical - Ship, Flight, Road).
-    4.	Customer_care_calls: The number of calls made for inquiries about the shipment (Integer).
-    5.	Customer_rating: Customer rating (Integer, 1 to 5, with 1 being the lowest and 5 being the highest).
-    6.	Cost_of_the_Product: Cost of the product in US Dollars (Integer).
-    7.	Prior_purchases: The number of prior purchases made by the customer (Integer).
-    8.	Product_importance: Importance categorization of the product (Categorical - Low, Medium, High).
-    9.	Gender: Gender of the customer (Categorical - Male, Female).
-    10.	Discount_offered: Discount offered on the specific product (Integer).
-    11.	Weight_in_gms: Weight of the product in grams (Integer).
-    12.	Reached.on.Time_Y.N: Target variable, where 1 indicates that the product has NOT reached on time, and 0 indicates it has reached on time (Binary classification).
-Target Variable/Label:
-The "Reached.on.Time_Y.N" variable, which denotes whether the product arrived on time or not, is the target variable for the machine learning models. It has the binary values of 1 (Not on time) and 0 (On time), and it is a variable.
+- Data Description: The "spam.csv" dataset contains information related to SMS messages or emails, particularly focusing on spam classification. It is designed for machine learning tasks to predict whether a message is spam or not based on various features and attributes.
+- Data Fields:
+    v1 (Label): A binary classification label indicating whether a message is spam or not. Typically, it takes values like "ham" (for non-spam) and "spam" (for spam).
+    v2 (Text): The text content of the SMS message or email.
+- Dataset Size:
+    Number of Rows (Samples): 5572
+    Number of Columns (Features): 2
+- Data Types:
+    v1 (Label): Categorical (binary)
+    v2 (Text): Text data
 
