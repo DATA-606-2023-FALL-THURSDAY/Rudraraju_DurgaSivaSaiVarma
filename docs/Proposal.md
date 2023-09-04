@@ -19,7 +19,6 @@
 - Which machine learning algorithms and techniques are most effective for spam classification in emails and SMS messages?
 - What features or attributes of emails and SMS messages are most indicative of spam content?
 - How can the project's results be integrated into existing email and messaging platforms for practical use?
--
 
 ##  Data Description
 - Data Sources: The dataset is obtained from Kaggle and is related to the SMS Spam Collection Dataset Collection of SMS messages tagged as spam or legitimate.
