@@ -10,7 +10,7 @@
 - YouTube video -
 
 ##  Background
-- The objective of the Email Spam Classifier and SMS Spam Classifier projects is to develop machine learning models and algorithms that can automatically categorize incoming emails and texts as spam (unwanted, unsolicited) or legitimate (non-spam) depending on their content and features. The main objective is to build a platform that filters out undesirable messages, which will enhance email and messaging for users.
+- The objective of the Email Spam Classifier and SMS Spam Classifier projects is to develop machine learning models and algorithms that can automatically categorize emails and texts as spam (unwanted, unsolicited) or legitimate (non-spam) depending on their content and features. The main objective is to build a platform that classifies out undesirable messages, which will enhance email and messaging for users.
 ## 
 - User Experience: Unwanted spam emails and SMS messages may annoy users and take up valuable time by clogging up inboxes. This project attempts to improve the user experience by effectively detecting and filtering out spam and ensuring that critical messages are not lost among irrelevant ones.
 - Security and privacy: Spam emails can include unsafe content, phishing attempts, or fraudulent schemes. This project may contribute to increased security and safeguard consumers from potential dangers and scams by properly recognizing and blocking spam.
