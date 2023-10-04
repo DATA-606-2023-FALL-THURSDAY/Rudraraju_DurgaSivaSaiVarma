@@ -9,7 +9,7 @@
 - PowerPoint presentation file -
 - YouTube video -
 
-##  Background
+## 2. Background
 - The objective of the Email Spam Classifier and SMS Spam Classifier projects is to develop machine learning models and algorithms that can automatically categorize emails and texts as spam (unwanted, unsolicited) or legitimate (non-spam) depending on their content and features. The main objective is to build a platform that classifies out undesirable messages, which will enhance email and messaging for users.
 ## 
 - User Experience: Unwanted spam emails and SMS messages may annoy users and take up valuable time by clogging up inboxes. This project attempts to improve the user experience by effectively detecting and filtering out spam and ensuring that critical messages are not lost among irrelevant ones.
@@ -20,7 +20,7 @@
 - What features or attributes of emails and SMS messages are most indicative of spam content?
 - Are there any common patterns or keywords that distinguish spam messages from non-spam messages?
 
-##  Data Description
+## 3. Data Description
 - Data Sources: The dataset is obtained from Kaggle and is related to the SMS Spam Collection Dataset Collection of SMS messages tagged as spam or legitimate.
 - Data Set Link: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download
 - Data Size: The dataset is relatively small, with a size of approximately 503 KB.
@@ -34,4 +34,28 @@
 - Data Types:
     v1 (Label): Categorical (binary)
     v2 (Text): Text data
+  
+## 4. Exploratory Data Analysis (EDA)
+Perform data exploration using Jupyter Notebook
+You would focus on the target variable and the selected features and drop all other columns.
+produce summary statistics of key variables
+Create visualizations (I recommend using Plotly)
+Find out if the data require cleansing:
+missing values?
+duplicate rows?
+Find out if the data require splitting, merging, pivoting, etc.
+Find out if you need to bring in other data sources to augment your data.
+For example, population, socioeconomic data from Census may be helpful.
+For textual data, you will pre-process (normalize, remove stopwords, tokenize) them before you can analyze them in predictive analysis/machine learning.
+Make sure the resulting dataset need to be "tidy":
+each row represents one observation (ideally one unique entity/subject).
+each column represents one unique property of that entity.
+
+
+
+
+
+
+
+
 
