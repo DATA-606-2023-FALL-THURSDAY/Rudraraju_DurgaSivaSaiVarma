@@ -36,20 +36,45 @@
     v2 (Text): Text data
   
 ## 4. Exploratory Data Analysis (EDA)
-Perform data exploration using Jupyter Notebook
-You would focus on the target variable and the selected features and drop all other columns.
-produce summary statistics of key variables
-Create visualizations (I recommend using Plotly)
-Find out if the data require cleansing:
-missing values?
-duplicate rows?
-Find out if the data require splitting, merging, pivoting, etc.
-Find out if you need to bring in other data sources to augment your data.
-For example, population, socioeconomic data from Census may be helpful.
-For textual data, you will pre-process (normalize, remove stopwords, tokenize) them before you can analyze them in predictive analysis/machine learning.
-Make sure the resulting dataset need to be "tidy":
-each row represents one observation (ideally one unique entity/subject).
-each column represents one unique property of that entity.
+ ### 4.1 Data Cleaning 
+  #### 4.1.1 Changing the name for the required columns and dropping the unwanted columns
+- In the DataFrame we have 5 columns they are v1, v2, Unnamed: 2, Unnamed: 3, and Unnamed: 4.  
+- Unnamed: 2, Unnamed: 3, and Unnamed: 4 are the unwanted columns so they are deleted and the “v1” column is renamed to “label” and “v2” column are renamed to “text”.
+- IMG1
+  #### 4.1.2 Checking & removing the duplicate rows from DataFrame
+- Checking the duplicate rows in the DataFrame. It is observed that 403 duplicate rows are present in the DataFrame. After identifying the duplicate data, the very first value are kept and the rest duplicate values are been deleted.
+- IMG2
+ ### 4.2 visualization
+- The number of Ham and the number of Spam messages are being counted. Then the percentage of Ham and Spam messages are represented in the Pie Chart
+- IMG3,IMG4
+ ### 4.3 Changing the categorical data 
+- Changing the ham and spam categorical data to numerical data using the encoder
+- The Ham and Spam messages are originally Categorical data then they are changed into Numeric data Ham is changed into 1 and Spam is changed into 0.
+- IMG5
+ ### 4.4 Importing the nltk
+- NLTK stands for Natural Language Toolkit. It is used for working with human language data, particularly for tasks related to natural language processing (NLP). NLTK provides tools, resources, and libraries for a wide range of NLP tasks, including tokenization, stemming, tagging, parsing, semantic reasoning, and more.
+- Created new columns from the text column using the NLTK libraries such as number of characters, number of words, number of sentences columns, and displayed the data frame.
+- IMG6
+- Plotted the graphs for Histogram of the Total Number of Characters by Label, Histogram of the Total Number of Words by Label,   Histogram of Total Number of Sentences by Label and Heatmap of number of characters, number of words, number of sentences columns
+- IMG7
+ ### 4.5 Processing the data
+- NLTK allows you to tokenize the data which means it helps to break text into individual words or tokens, making it easier to analyze and manipulate text data. NLTK can be used in collaboration with machine learning techniques to build NLP models for tasks such as text classification, topic modeling and text generation. NLTK offers tools for parsing, allowing you to analyze the grammatical structure and meaning of sentences. With the help of “punkt” we can classify stopwords and non-alphanumeric characters which later can be removed if necessary. Additionally, it has capabilities for analyzing text's semantic meaning, such as semantic similarity tests and WordNet integration for word sense classification.
+- Using the NLTK created the transformed_text function which gives the text as output, the transformed_text function will Convert to lowercase and tokenize the text and Remove non-alphanumeric characters, stopwords, and apply stemming to the text
+- IMG8
+  
+ ### 4.6 wordcloud
+- Displaying the wordcloud Wordclous is the graphical representation of word frequency that give greater preference to words that appear more frequently in a source text. Using the wordcloud library I am creating two wordclouds one which shows spam words and the other which shows non-spam words.
+- Word cloud for the spam messages
+- IMG9
+- Word cloud for the ham messages
+- IMG10
+ ### 4.7 Displaying the top 30 common words in the text
+ - Created a list of spam and ham words from the data and found the Total spam words in the data and Total ham words in the data
+ - Plotted the Bar plot for the common words in the spam text
+ - IMG11
+ - Bar plot for the common words in the ham text
+ - IMG12
+
 
 
 
