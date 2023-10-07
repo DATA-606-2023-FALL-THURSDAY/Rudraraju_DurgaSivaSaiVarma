@@ -41,7 +41,7 @@
 - In the DataFrame we have 5 columns they are v1, v2, Unnamed: 2, Unnamed: 3, and Unnamed: 4.  
 - Unnamed: 2, Unnamed: 3, and Unnamed: 4 are the unwanted columns so they are deleted and the “v1” column is renamed to “label” and “v2” column are renamed to “text”.
 
-  #### 4.1.2 Checking & removing the duplicate rows from DataFrame
+#### 4.1.2 Checking & removing the duplicate rows from DataFrame
 - Checking the duplicate rows in the DataFrame. It is observed that 403 duplicate rows are present in the DataFrame. After identifying the duplicate data, the very first value are kept and the rest duplicate values are been deleted.
 
  ### 4.2 visualization
