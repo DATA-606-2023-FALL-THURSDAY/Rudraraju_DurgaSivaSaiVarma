@@ -1,7 +1,7 @@
 # <p align ="center"> SMS & Email Spam Classifier </p>
 
 ##  Title and Author
-- Project Title - ** SMS & Email Spam prediction **
+- Project Title - **SMS & Email Spam prediction**
 - Prepared for UMBC Data Science Master Degree Capstone by **Dr. Chaojie (Jay) Wang**
 - Author - **Rudraraju Durga Siva Sai Varma**
 - Author's GitHub profile - https://github.com/DATA-606-2023-FALL-THURSDAY/Rudraraju_DurgaSivaSaiVarma
