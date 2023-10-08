@@ -76,7 +76,7 @@
 - Using the NLTK created the transformed_text function which gives the text as output, the transformed_text function will Convert to lowercase and tokenize the text and Remove non-alphanumeric characters, stopwords, and apply stemming to the text
 <img width="908" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/NLKT%20-%20transformed_text.png">
   
- ### 4.6 wordcloud
+ ### 4.6 Wordcloud
 - Displaying the wordcloud Wordclous is the graphical representation of word frequency that give greater preference to words that appear more frequently in a source text. Using the wordcloud library I am creating two wordclouds one which shows spam words and the other which shows non-spam words.
 - **Word cloud for the spam messages:**
 <img width="508" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/Word%20cloud%20for%20the%20spam%20messages.png">
@@ -94,10 +94,45 @@
 
 
 
+## 4. Exploratory Data Analysis
+On the dataset, performed an exploratory data analysis (EDA), omitting all other columns and concentrating on the target variable "Reached.on.Time_Y.N" and chosen characteristics. The following are the main conclusions and actions taken during the EDA:
 
+### 4.1 Data Summary Statistics
+For each of the dataset's numerical columns, we computed summary statistics. 
+Here are some significant figures:
+1.	Customer_care_calls: Mean of 4.05, with a minimum of 2 and a maximum of 7.
+2.	Customer_rating: Mean of 2.99, with a minimum of 1 and a maximum of 5.
+3.	Cost_of_the_Product: Mean cost of 210.20, ranging from 96 to 310.
+4.	Prior_purchases: Mean of 3.57, with values between 2 and 10.
+5.	Discount_offered: Mean discount of 13.37%, ranging from 1% to 65%.
+6.	Weight_in_gms: Mean weight of 3634.02 grams, with weights ranging from 1001 to 7846 grams.
 
+### 4.2 Data Cleansing
+**4.2.1 Missing Values**: The dataset contains no missing values; all columns include non-null items.
 
+**4.2.2 Duplicate Rows**: The dataset contains no duplicate rows.
+### 4.3 Data Visualizations
+- To understand the data, we produced a number of visualizations using Plotly and Matplotlib:
+**Plot 1:** Distribution of Customer Ratings
+ 
+Figure 6 Distribution of Customer Ratings
 
+- The distribution of customer evaluations is shown via a histogram, with the scores being similar for each rating.
+**Plot 2:** Product Cost by Shipment Mode
+ 
+Figure 7 Box Plot of Product Cost by Shipment Mode
 
+- Based on the method of delivery, a boxplot shows the price of the items. It offers information on the spread and median price for each mode of shipment. The Box Plot showed similar statistics for each Shipment Mode.
+**Plot 3:** Customer Rating vs. Customer Care Calls
+ 
+Figure 8 Scatter plot of Customer Rating vs. Customer Care Calls
 
+- The correlation between customer feedback and the volume of customer service calls is represented by a scatter plot. Whether orders arrived on time or not determines the colour of the points.
+**Plot 4:** Count Plot, Reached on Time (Target Variable)
+ 
+Figure 9 Count Plot of Reached On Time or Not
 
+- A count plot shows the distribution of the target variable "Reached.on.Time_Y.N." It indicates the number of orders that reached on time (1) and those that did not (0).
+
+### 4.4 Data Tidiness
+Given that each row reflects a distinct order and each column a distinctive quality or attribute of that order, the resultant dataset is thought to be tidy. The information is organized and prepared for additional analysis or machine learning operations.
