@@ -46,6 +46,9 @@
 
  ### 4.2 visualization
 - The number of Ham and the number of Spam messages are being counted. Then the percentage of Ham and Spam messages are represented in the Pie Chart
+- **Count plot:** The below count plot represents the count vs label graph. From the plot, we can conclude that in the data that we have taken the count of Ham messages is above 4000 and the count of spam messages is below 1000. 
+
+- **Pie Chart:** The pie chart represents the percentage of Ham and Spam messages that are present in the data. From the pie chart, we can conclude that in the data the percentage of Ham messages is 87.37% and the percentage of Spam messages is 12.63%.
   
   <img width="500" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/Count%20of%20ham%20and%20spam%20messages.png">  <img width="400" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/Pie%20chart%20of%20ham%20and%20spam%20messages.png">
  ### 4.3 Changing the categorical data 
@@ -59,16 +62,16 @@
 
 - Plotted the graphs for Histogram of the Total Number of Characters by Label, Histogram of the Total Number of Words by Label,   Histogram of Total Number of Sentences by Label and Heatmap of number of characters, number of words, number of sentences columns
 
-- **Histogram of the Total Number of Characters by Label:** 
+- **Histogram of the Total Number of Characters by Label:** This histogram represents the Count of the Total Number of characters by label. This means that it represents the count of the number of characters present in each message in the data. The Ham message is represented with blue color and the Spam message is represented with red. From this Histogram we can conclude that in the data the total number of characters is more in Ham messages when compared to that of Spam messages.
 <img width="908" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/Plot%20for%20the%20Number%20of%20Characters.png"> 
 
-- **Histogram of the Total Number of Words by Label:** 
+- **Histogram of the Total Number of Words by Label:** This histogram represents the Count of the Total Number of words by label. This means that it represents the count of the number of words that are present in each message in the data. The Ham message is represented with blue color and the Spam message is represented with red. From this Histogram we can conclude that in the data the total number of words is more in Ham messages when compared to that of Spam messages.
 <img width="908" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/Plot%20for%20the%20Number%20of%20Words.png"> 
 
-- **Histogram of Total Number of Sentences by Label:** 
+- **Histogram of Total Number of Sentences by Label:** This histogram represents the Count of the Total Number of Sentences by label. This means that it represents the count of the number of Sentences present in each message in the data. The Ham message is represented with blue color and the Spam message is represented with red. From the Histogram we can conclude that in the data the total number of Sentences is more in Ham messages when compared to that of Spam messages.
 <img width="908" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/Plot%20for%20the%20Number%20of%20sentences.png">
 
-- **Heatmap of number of characters, number of words, number of sentences columns:** 
+- **Heatmap of number of characters, number of words, number of sentences columns:** From the heatmap, we aim to see the correlation between the label which is the target, and the features which are total_num_of_charecters, total_num_of_words, and total_num_of_sentences. To make the model we will select one feature which has a high correlation with the label.  The higher the correlation the chances of the message being spam is more. In the Heatmap we can see that the correlation of Total_num_of_charecters and label is 0.38 which is the highest when compared to total_num_of_words, and total_num_of_sentences which are 0.26 and 0.27 respectively. From this, we can conclude that we will be using Total_num_of_charecters to make the model. 
 <img width="708" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/Heatmap%20of%20number%20of%20characters%2C%20number%20of%20words%2C%20number%20of%20sentences%20columns.png">
 
  ### 4.5 Processing the data
@@ -78,6 +81,7 @@
   
  ### 4.6 Wordcloud
 - Displaying the wordcloud Wordclous is the graphical representation of word frequency that give greater preference to words that appear more frequently in a source text. Using the wordcloud library I am creating two wordclouds one which shows spam words and the other which shows non-spam words.
+- From the word cloud of spam messages, we can see that the frequency of words like text, free, u, and call are high in spam messages and that the frequency of words like go, u, come, got, call and love are high in Ham messages of the data.
 - **Word cloud for the spam messages:**
 <img width="508" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/Word%20cloud%20for%20the%20spam%20messages.png">
 
@@ -86,9 +90,9 @@
 
  ### 4.7 Displaying the top 30 common words in the text
  - Created a list of spam and ham words from the data and found the Total spam words in the data and Total ham words in the data
- - **Plotted the Bar plot for the common words in the spam text:**
+ - **Plotted the Bar plot for the common words in the spam text:** The bar plot represents the Top 30 Frequent Words V/s Frequency of word in the spam data. We can clearly see that the frequency of the word “call” is highest in the spam messages which is higher than 300.
 <img width="908" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/Bar%20plot%20for%20the%20common%20words%20in%20the%20spam%20text.png">
 
- - **Bar plot for the common words in the ham text:**
+ - **Bar plot for the common words in the ham text:** The bar plot represents the Top 30 Frequent Words V/s Frequency of word in the Ham data. We can clearly see that the frequency of the word “u” is highest in Ham messages which is Higher than 800.
 <img width="908" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/Bar%20plot%20for%20the%20common%20words%20in%20the%20ham%20text.png">
 
