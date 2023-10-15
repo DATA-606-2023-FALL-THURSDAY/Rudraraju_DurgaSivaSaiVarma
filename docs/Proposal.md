@@ -96,3 +96,13 @@
  - **Bar plot for the common words in the ham text:** The bar plot represents the Top 30 Frequent Words V/s Frequency of word in the Ham data. We can clearly see that the frequency of the word “u” is highest in Ham messages which is Higher than 800.
 <img width="908" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/Bar%20plot%20for%20the%20common%20words%20in%20the%20ham%20text.png">
 
+## 5. Model Training
+ ### 5.1 Data Cleaning
+
+ What models you will be using for predictive analytics?
+- How will you train the models?
+  - Train vs test split (80/20, 70/30, etc.)
+  - Python packages to be used (scikit-learn, NLTK, spaCy, etc.)
+  - The development environments (your laptop, Google CoLab, GitHub CodeSpaces, etc.)
+- How will you measure and compare the performance of the models?
+
