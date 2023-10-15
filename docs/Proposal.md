@@ -74,12 +74,12 @@
 - **Heatmap representing the correlation between the columns:** From the heatmap, we aim to see the correlation between the label which is the target, and the features which are total_num_of_charecters, total_num_of_words, and total_num_of_sentences. To make the model we will select one feature which has a high correlation with the label.  The higher the correlation the chances of the message being spam is more. In the Heatmap we can see that the correlation of Total_num_of_charecters and label is 0.38 which is the highest when compared to total_num_of_words, and total_num_of_sentences which are 0.26 and 0.27 respectively. From this, we can conclude that we will be using Total_num_of_charecters to make the model. 
 <img width="708" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/Heatmap%20of%20number%20of%20characters%2C%20number%20of%20words%2C%20number%20of%20sentences%20columns.png">
 
- ### 4.5 Processing the data
+### 4.5 Processing the data
 - NLTK allows you to tokenize the data which means it helps to break text into individual words or tokens, making it easier to analyze and manipulate text data. NLTK can be used in collaboration with machine learning techniques to build NLP models for tasks such as text classification, topic modeling and text generation. NLTK offers tools for parsing, allowing you to analyze the grammatical structure and meaning of sentences. With the help of “punkt” we can classify stopwords and non-alphanumeric characters which later can be removed if necessary. Additionally, it has capabilities for analyzing text's semantic meaning, such as semantic similarity tests and WordNet integration for word sense classification.
 - Using the NLTK created the transformed_text function which gives the text as output, the transformed_text function will Convert to lowercase and tokenize the text and Remove non-alphanumeric characters, stopwords, and apply stemming to the text
 <img width="908" alt="image" src="https://github.com/Rdssvarma/UMBC-DATA606-FALL2023-THURSDAY/blob/main/Images/NLKT%20-%20transformed_text.png">
   
- ### 4.6 Wordcloud
+### 4.6 Wordcloud
 - Displaying the wordcloud Wordclous is the graphical representation of word frequency that give greater preference to words that appear more frequently in a source text. Using the wordcloud library I am creating two wordclouds one which shows spam words and the other which shows non-spam words.
 - From the word cloud of spam messages, we can see that the frequency of words like text, free, u, and call are high in spam messages and that the frequency of words like go, u, come, got, call and love are high in Ham messages of the data.
 - **Word cloud for the spam messages:**
@@ -105,4 +105,56 @@
   - Python packages to be used (scikit-learn, NLTK, spaCy, etc.)
   - The development environments (your laptop, Google CoLab, GitHub CodeSpaces, etc.)
 - How will you measure and compare the performance of the models?
+
+
+
+## 5. Model Training
+### 5.1 Models Used for Machine Learning
+   1. svc = SVC(kernel='sigmoid', gamma=1.0)
+   2. knc = KNeighborsClassifier()
+   3. mnb = MultinomialNB()
+   4. dtc = DecisionTreeClassifier(max_depth=5)
+   5. lrc = LogisticRegression(solver='liblinear', penalty='l1')
+   6. rfc = RandomForestClassifier(n_estimators=50, random_state=2)
+   7. abc = AdaBoostClassifier(n_estimators=50, random_state=2)
+   8. bc = BaggingClassifier(n_estimators=50, random_state=2)
+   9. etc = ExtraTreesClassifier(n_estimators=50, random_state=2)
+   10. gbdt = GradientBoostingClassifier(n_estimators=50,random_state=2)
+   11. xgb = XGBClassifier(n_estimators=50,random_state=2)
+       
+ ### 5.2 Process of Training The Models
+ #### 5.2.1.Train-Test Split
+- We divided the data into an 80/20 train-test split, using 80% of the data for training the models and 20% for testing. With the use of this split, it is possible to assess how effectively the models generalize to differentiate the spam and ham text.
+  
+ #### 5.2.2 Data Preprocessing
+- **Vectorization:** TfidfVectorizer is a text feature extraction technique that is frequently used in text mining and natural language processing (NLP). They can be used to transform text data into numerical representations that machine-learning models can use. 
+
+ #### 5.2.3 Python Packages
+For a variety of tasks throughout the project, we used the Python packages and libraries listed below:
+- scikit-learn: For building, training, and evaluating machine learning models.
+- pandas: For data manipulation and analysis.
+- numpy: For numerical operations.
+- matplotlib and seaborn: For data visualization.
+
+ #### 5.2.4 Development Environment
+Kaggle served as the project's development environment since it offers a Jupyter Notebook environment with access to crucial tools and resources for data science and machine learning. Kaggle is appropriate for data science projects since it enables seamless collaboration, code exchange, and simple access to datasets.
+
+ ### 5.3 Measuring and Comparing Model Performance
+- Accuracy: This statistic assesses how accurately the model's predictions were made in general. It is the proportion of accurate forecasts to all predictions.
+- Precision: How much of the model's favorable predictions were accurate is known as precision. In order to compute it, divide the total number of true positives by the total number of false positives, or TP / (TP + FP).
+- Confusion_matrix: A confusion matrix gives a thorough description of the right and wrong guesses. True positives (TP), true negatives (TN), false positives (FP), and false negatives (FN) are a few of the measures it offers.
+
+ ### 5.4 Result and Interpretations
+1. Logistic Regression:
+   
+Figure 10 Linear Regression Result
+•	Accuracy: 64.45%
+•	True Positives (TP): 913 - The model correctly predicted that 913 shipments would reach on time.
+•	True Negatives (TN): 505 - The model correctly predicted that 505 shipments would not reach on time.
+•	False Positives (FP): 390 - The model incorrectly predicted that 390 shipments would reach on time when they didn't.
+•	False Negatives (FN): 392 - The model incorrectly predicted that 392 shipments would not reach on time when they did.
+Interpretation: The logistic regression model was 64.45% accurate, meaning that in 64.45% of situations, it was able to predict whether a delivery will be on time or delayed. However, because of its moderate precision, this model could not offer the greatest results in terms of prediction. It will need further investigation to evaluate other parameters.
+
+ ### 5.5 Feature Importance
+
 
