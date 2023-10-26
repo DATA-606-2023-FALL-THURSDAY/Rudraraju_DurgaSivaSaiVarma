@@ -145,17 +145,7 @@ Kaggle served as the project's development environment since it offers a Jupyter
 - Confusion_matrix: A confusion matrix gives a thorough description of the right and wrong guesses. True positives (TP), true negatives (TN), false positives (FP), and false negatives (FN) are a few of the measures it offers.
 
  ### 5.4 Result and Interpretations
-1. Logistic Regression:
-   
-Figure 10 
 
-- Accuracy: 64.45%
-- True Positives (TP): 913 - The model correctly predicted that 913 shipments would reach on time.
-- True Negatives (TN): 505 - The model correctly predicted that 505 shipments would not reach on time.
-- False Positives (FP): 390 - The model incorrectly predicted that 390 shipments would reach on time when they didn't.
-- False Negatives (FN): 392 - The model incorrectly predicted that 392 shipments would not reach on time when they did.
-
-Interpretation: The logistic regression model was 64.45% accurate, meaning that in 64.45% of situations, it was able to predict whether a delivery will be on time or delayed. However, because of its moderate precision, this model could not offer the greatest results in terms of prediction. It will need further investigation to evaluate other parameters.
 
  ### 5.5 Feature Importance
 
