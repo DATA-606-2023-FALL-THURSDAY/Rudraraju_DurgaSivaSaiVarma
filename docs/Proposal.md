@@ -187,11 +187,36 @@ Kaggle served as the project's development environment since it offers a Jupyter
 
 ![image](https://github.com/DATA-606-2023-FALL-THURSDAY/Rudraraju_DurgaSivaSaiVarma/assets/143572017/122db7e2-3fe9-4185-9a9f-026bdce1876e)
 
+I have trained the models with the data and found out the precision and accuracy of each model. After testing all the models I can see NB model is working well 
 
+# 6. Application of Trained Model
+In this project, we created a user-friendly web application using Streamlit. This will make our trained machine-learning predictive model available publicly. With this web application customers will be able to interact with our model which will tell them if their message is spam or not spam. The main reason for choosing Streamlit is because it is an open-source Python library that will quickly turn data science and machine learning projects into web applications. 
 
+## 6.1 Web Application Overview
+This web application will give the user a simple user-friendly interface where a user will find a message box where the user will be able to give a message and check if it a spam or not. 
+**Link - https://sms-email-classifier-vprf.onrender.com/**
 
+## 6.2 Features of the Web Application
+1.	Input Fields: The user will find the message box where he will be able to give the message they want to check if it a spam or not spam. 
+2.	Predictive Power: Our machine-learning model was accurately trained on a large dataset. So, when a user gives a message, it will predict accurately. 
+3.	User-Friendly Feedback: Users receive simple responses where the model will predict if the message is spam or not spam. 
+4.	Accessibility: Its web application is made to be accessed from several platforms and on different devices, making it easy for users to access on desktop and mobile platforms.
 
-  
- ### 5.5 Feature Importance
+## 6.3 How to Use the Web Application
+Using the application is a straightforward process:
+1.	You can use any web browser to access the application.
+2.	Next, give the message you want to check in the message box. 
+3.	To predict the message just click on the predict button. 
+4.	Then the model will predict if the given message is spam or not
+
+## 6.4 Why Streamlit
+Streamlit is an open-source Python tool that makes web applications out of data science and machine learning projects very rapidly. For data scientists and machine learning researchers whose primary areas of expertise are developing prototypes, testing models, and working with data in Python, this framework is excellent. Streamlit is rapid, efficient, adaptable, and simple to use.
+
+## 6.5 Screenshots
+
+![image](https://github.com/DATA-606-2023-FALL-THURSDAY/Rudraraju_DurgaSivaSaiVarma/assets/143572017/436c8174-4546-4498-a0ca-b3efff381754)
+
+![image](https://github.com/DATA-606-2023-FALL-THURSDAY/Rudraraju_DurgaSivaSaiVarma/assets/143572017/392e9aad-f78f-4286-94f3-b041e34d489d)
+
 
 
