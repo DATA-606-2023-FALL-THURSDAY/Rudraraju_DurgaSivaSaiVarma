@@ -6,8 +6,10 @@
 - Author - **Rudraraju Durga Siva Sai Varma**
 - Author's GitHub profile - https://github.com/DATA-606-2023-FALL-THURSDAY/Rudraraju_DurgaSivaSaiVarma
 - Author's LinkedIn profile - www.linkedin.com/in/saivarmarudraraju3157
-- PowerPoint presentation file - 
+- PowerPoint presentation file - https://github.com/DATA-606-2023-FALL-THURSDAY/Rudraraju_DurgaSivaSaiVarma/blob/main/docs/SMS%20%26%20Email%20Spam%20Classifier%20PPT%20PDF.pdf
+- PowerPoint presentation PDF file - https://github.com/DATA-606-2023-FALL-THURSDAY/Rudraraju_DurgaSivaSaiVarma/blob/main/docs/SMS%20%26%20Email%20Spam%20Classifier%20PPT%20PDF.pdf
 - YouTube video link - https://youtu.be/CLjmDO0kMHg
+- Web Application link - https://sms-email-classifier-vprf.onrender.com/
 
 ## 2. Background
 - The objective of the Email Spam Classifier and SMS Spam Classifier projects is to develop machine learning models and algorithms that can automatically categorize emails and texts as spam (unwanted, unsolicited) or legitimate (non-spam) depending on their content and features. The main objective is to build a platform that classifies out undesirable messages, which will enhance email and messaging for users.
