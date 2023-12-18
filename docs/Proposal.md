@@ -223,5 +223,17 @@ Streamlit is an open-source Python tool that makes web applications out of data 
 
 ![image](https://github.com/DATA-606-2023-FALL-THURSDAY/Rudraraju_DurgaSivaSaiVarma/assets/143572017/392e9aad-f78f-4286-94f3-b041e34d489d)
 
+# References
 
+- S. K. Trivedi, "A study of machine learning classifiers for spam detection," 2016 4th International Symposium on Computational and Business Intelligence (ISCBI), Olten, Switzerland, 2016, pp. 176-180, doi: 10.1109/ISCBI.2016.7743279.
+- N. Kumar, S. Sonowal and Nishant, "Email Spam Detection Using Machine Learning Algorithms," 2020 Second International Conference on Inventive Research in Computing Applications (ICIRCA), Coimbatore, India, 2020, pp. 108-113, doi: 10.1109/ICIRCA48905.2020.9183098.
+- Mallampati, D., & Hegde, N. P. (2020). A machine learning based email spam classification framework model. IJITEE, ISSN, 9(4), 2278–3075.
+- Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., ... & Duchesnay, É. (2011). Scikit-learn: Machine learning in Python. the Journal of machine Learning research, 12, 2825-2830.
+- https://towardsdatascience.com/email-spam-detection-1-2-b0e06a5c0472
+- https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset/data
+- https://randerson112358.medium.com/email-spam-detection-using-python-machine-learning-abe38c889855
+- https://www.nltk.org/
+- https://stackabuse.com/text-classification-with-python-and-scikit-learn/
+- https://www.nltk.org/book/ch01.html
+- https://developer.vonage.com/en/blog/sms-spam-detection-with-machine-learning-in-python
 
