@@ -6,8 +6,8 @@
 - Author - **Rudraraju Durga Siva Sai Varma**
 - Author's GitHub profile - https://github.com/DATA-606-2023-FALL-THURSDAY/Rudraraju_DurgaSivaSaiVarma
 - Author's LinkedIn profile - www.linkedin.com/in/saivarmarudraraju3157
-- PowerPoint presentation file -
-- YouTube video -
+- PowerPoint presentation file - 
+- YouTube video link - https://youtu.be/CLjmDO0kMHg
 
 ## 2. Background
 - The objective of the Email Spam Classifier and SMS Spam Classifier projects is to develop machine learning models and algorithms that can automatically categorize emails and texts as spam (unwanted, unsolicited) or legitimate (non-spam) depending on their content and features. The main objective is to build a platform that classifies out undesirable messages, which will enhance email and messaging for users.
@@ -188,6 +188,9 @@ Kaggle served as the project's development environment since it offers a Jupyter
 ![image](https://github.com/DATA-606-2023-FALL-THURSDAY/Rudraraju_DurgaSivaSaiVarma/assets/143572017/122db7e2-3fe9-4185-9a9f-026bdce1876e)
 
 I have trained the models with the data and found out the precision and accuracy of each model. After testing all the models I can see NB model is working well 
+
+![image](https://github.com/DATA-606-2023-FALL-THURSDAY/Rudraraju_DurgaSivaSaiVarma/assets/143572017/98af23d9-46a2-4b75-ac3b-dbce08dbefb3)
+
 
 # 6. Application of Trained Model
 In this project, we created a user-friendly web application using Streamlit. This will make our trained machine-learning predictive model available publicly. With this web application customers will be able to interact with our model which will tell them if their message is spam or not spam. The main reason for choosing Streamlit is because it is an open-source Python library that will quickly turn data science and machine learning projects into web applications. 
