@@ -223,7 +223,37 @@ Streamlit is an open-source Python tool that makes web applications out of data 
 
 ![image](https://github.com/DATA-606-2023-FALL-THURSDAY/Rudraraju_DurgaSivaSaiVarma/assets/143572017/392e9aad-f78f-4286-94f3-b041e34d489d)
 
-# References
+
+
+
+# 7. Conclusion
+In this project, we have successfully conducted the training and testing phases of the project. Using the training and testing data we have created a predictive model using a machine learning model for accurate prediction of whether a message is spam or not. Implemented a user-friendly interface for seamless interaction. Users can give input as a message into the text box to instantly check if the message given is spam or not spam.
+
+## 7.1 Summary of Our Work and Its Potential Application
+In this project, we tried to accurately predict whether the message was spam or not spam. We performed all machine-learning models on the training and testing data and we can see that linear regression gave us accurate results. 
+
+## 7.2 Usage of Our Research
+Our research has the main target the people any person who would like to check if the messages they are receiving are spam or not. Our model can be used by any user who would like to check if the message is spam or not spam. 
+
+## 7.3 Limitations of Our Work
+Even with the positive results, our project has faced shortcomings:
+Size of Dataset: The models' ability to generalize to larger and more diverse datasets may be hindered because of the small size of the training dataset.
+Feature Engineering: By employing more sophisticated feature engineering techniques, model performance may be increased.
+
+## 7.4 Lessons Learned
+During this study, we discovered numerous things:
+- Data Preprocessing: Learned how to use NLTK on the data which was to convert the data which can be easily used in any machine learning model training, testing, and prediction. 
+- Model Selection: Performance is greatly influenced by the careful selection of models and their hyperparameters.
+- Interpretability: The interpretation and justification of model predictions so that we give accurate results to the user. 
+
+## 7.5 Future Research Directions
+Our research establishes the framework for further study in logistics and e-commerce:
+- Integration of External Data: To improve forecast accuracy, future research might investigate the integration of external data sources including weather and traffic data.
+- Real-Time Predictions: Constructing real-time prediction systems that consider dynamic shifts in supply chain variables.
+- Customer Behavior Analysis: To better understand how customer interactions affect delivery times, data on consumer behavior will be analyzed.
+- Advanced Forecasting: Applying sophisticated time series forecasting techniques to make more precise delivery time predictions. Our approach is a huge step in the right direction for e-commerce on-time delivery forecasts. There is a lot more opportunity for study and innovation in this field, even if our models provide useful insights and prediction powers. We may contribute to the continued development of supply chain management and e-commerce practices by iteratively improving our models and investigating new research directions.
+
+# 8.References
 
 - S. K. Trivedi, "A study of machine learning classifiers for spam detection," 2016 4th International Symposium on Computational and Business Intelligence (ISCBI), Olten, Switzerland, 2016, pp. 176-180, doi: 10.1109/ISCBI.2016.7743279.
 - N. Kumar, S. Sonowal and Nishant, "Email Spam Detection Using Machine Learning Algorithms," 2020 Second International Conference on Inventive Research in Computing Applications (ICIRCA), Coimbatore, India, 2020, pp. 108-113, doi: 10.1109/ICIRCA48905.2020.9183098.
